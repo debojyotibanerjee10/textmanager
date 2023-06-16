@@ -1,0 +1,15 @@
+.About h2{
+    text-align: center;
+}
+.About p{
+    padding: 1em 2em;
+    letter-spacing: 0.1em;
+}
+.About{
+    height: 100vh;
+}
+@media (max-width:546px){
+    .About{
+        font-size: 62.5%;
+    }
+}

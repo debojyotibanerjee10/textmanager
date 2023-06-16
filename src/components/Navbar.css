@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    align-items: center;
+    /* color: white; */
+    /* background-color: black; */
+    width: 100%;
+}
+nav.navbar ul li{
+    display: inline-block;
+    margin: 1em;
+    list-style: none;
+}
+nav.navbar ul li a{
+    /* color: white; */
+    text-decoration: none;
+}
+nav.navbar ul li a:hover{
+    text-decoration: underline;
+}
+nav.navbar ul li button{
+    font-weight: bold;
+}
+@media (max-width:546px){
+    .navbar{
+        font-size: 62.5%;
+    }
+}
