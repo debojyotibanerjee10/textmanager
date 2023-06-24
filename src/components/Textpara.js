@@ -28,7 +28,7 @@ export default function Textpara(props) {
       <div className="textsummary">
         <h2 style={{color: (props.theme==="light")?"black":"white"}}>Your Text Summary</h2>
         <h2 style={{color: (props.theme==="light")?"black":"white"}}>Number Of Characters- {text.length}</h2>
-        <h2 style={{color: (props.theme==="light")?"black":"white"}}>Number Of Words- {text.split(" ").filter((element)=>{return element.length!==0}).length}</h2>
+        <h2 style={{color: (props.theme==="light")?"black":"white"}}>Number Of Words- {text.split(/\s+/).filter((element)=>{return element.length!==0}).length}</h2>
       </div>
     </div>
     </>

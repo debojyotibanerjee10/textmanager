@@ -8,7 +8,7 @@ export default function Navbar(props) {
         <ul>
             <li><Link to="/" style={{color: (props.theme==="light")?"black":"white"}}>Home</Link></li>
             <li><Link to="/about"  style={{color: (props.theme==="light")?"black":"white"}}>About</Link></li>
-            <li><Link to="/contact"  style={{color: (props.theme==="light")?"black":"white"}}>Contact</Link></li>
+            {/* <li><Link to="/contact"  style={{color: (props.theme==="light")?"black":"white"}}>Contact</Link></li> */}
             <li><button onClick={props.toggle}>{(props.theme==="light")?"Lightmode":"Darkmode"}</button></li>
         </ul>
       </nav>

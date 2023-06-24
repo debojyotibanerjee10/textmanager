@@ -7,7 +7,6 @@ import{
   Routes,
   Route,
 } from "react-router-dom";
-
 export default function App() {
   const [mode,setMode]=useState("light");
   const togglemode=()=>{
@@ -29,7 +28,6 @@ export default function App() {
       <Route exact path="/about" element={<About theme={mode}/>}/>
       </Routes>
     </Router>
-    
     </>
   );
 }
